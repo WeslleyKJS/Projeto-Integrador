@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container{
+    width: 330px;
+    height: 480px;
+    background-color: #34839C;
+    border-radius: 7px;
+    margin-top: 170px;
+    text-align: center;
+    font-family: 'Noto Sans';
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(Trabalhin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ke{
+    
+}
+
+#user{
+    width: 20px;
+}
+
+#pemail{
+    height: 30px;
+    margin-top: 80px;
+    border: none;
+    border-radius: 6px;
+}    
+
+#key{
+    width: 20px;
+}
+
+#psenha{
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    margin: 9px;
+}
+
+#pbtn{
+    margin-top: 30px;
+    border-radius: 7px;
+    border: none;
+    padding: 9px 9px;
+
+}
+
+#pbtn::hover{
+    transition: 0.7s;
+}
